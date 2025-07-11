@@ -23,7 +23,15 @@
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+
 }
+
+body button:hover {
+    background-color: fuchsia;
+    color: white;
+}
+
 
 /* header */
 .header {
@@ -102,11 +110,13 @@ main {
 .one-title {
     font-size: 38px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .one-number {
     display: flex;
     justify-content: space-around;
+    gap: 167px;
 }
 
 .one-number-title {
@@ -114,6 +124,11 @@ main {
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 0;
+    color: rgba(78, 71, 255, 1);
+}
+
+.one-description {
+    margin-top: 0;
 }
 
 /* section three */
@@ -140,10 +155,18 @@ main {
 
 .review-title {
     font-size: 18px;
+    margin-bottom: 0;
 }
+
+.reviw-description {
+    font-size: small;
+
+}
+
 
 .revewer {
     display: flex;
+    align-items: center;
     gap: 12px;
     margin-top: 24px;
 
@@ -152,11 +175,17 @@ main {
 .revewer-pic {
     width: 40px;
     height: 40px;
+    border-radius: 2px;
 }
 
-.reviwer-detils {
-    justify-content: space-between;
-    gap: 0;
+.revewer-name {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.revewer-date {
+    font-size: small;
+    margin-top: 0;
 }
 
 /* section-four */
@@ -187,12 +216,12 @@ main {
 }
 
 /* footer */
-footer {}
+
 
 .footer-one {
     display: flex;
     padding: 93px 150px;
-    gap: 115px;
+    gap: 120px;
     justify-content: center;
 
 }
@@ -218,6 +247,13 @@ textarea {
     font-size: 20px;
 }
 
+.form-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
 .footer-two {
     text-align: center;
     padding: 104px 454px;
@@ -233,8 +269,21 @@ textarea {
 }
 
 .ft-column-two {
+    font-size: 30px;
+    font-weight: normal;
     justify-content: center;
     display: flex;
     gap: 50px;
+}
+
+.ft-column-two a {
+    text-decoration: none;
     color: rgba(137, 135, 161, 1);
+}
+
+.ft-column-two h6:hover {
+    background-color: fuchsia;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
 }
