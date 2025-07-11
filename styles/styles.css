@@ -27,7 +27,7 @@
 
 /* header */
 .header {
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     height: 800;
 }
 
