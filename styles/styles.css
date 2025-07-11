@@ -27,9 +27,11 @@
 
 }
 
-body button:hover {
+body button:hover,
+input[type="submit"]:hover {
     background-color: fuchsia;
     color: white;
+    box-shadow: 5px 5px 5px rgba(255, 10, 255, 0.61);
 }
 
 
@@ -60,6 +62,7 @@ nav {
 .banner {
     text-align: center;
     padding-bottom: 152px;
+    margin: auto;
 }
 
 .banner-content h1 {
@@ -284,6 +287,7 @@ textarea {
 .ft-column-two h6:hover {
     background-color: fuchsia;
     color: white;
+    box-shadow: 5px 5px 5px rgba(255, 10, 255, 0.61);
     padding: 2px;
     border-radius: 5px;
 }
