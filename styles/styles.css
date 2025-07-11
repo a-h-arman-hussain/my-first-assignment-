@@ -51,7 +51,6 @@ nav {
 /* banner styles */
 .banner {
     text-align: center;
-    /* margin: 0 35px 200px%; */
     padding-bottom: 152px;
 }
 
@@ -72,7 +71,6 @@ main {
 .section-one {
     display: flex;
     justify-content: space-between;
-    /* gap: 220px; */
     margin-top: 116px;
 }
 
