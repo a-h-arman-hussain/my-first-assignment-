@@ -179,7 +179,6 @@ main {
 }
 
 .section-four-description {
-    /* font-weight: 200; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -194,7 +193,6 @@ footer {}
 
 .footer-one {
     display: flex;
-    background-color: #4d47ff10;
     padding: 93px 150px;
     gap: 115px;
     justify-content: center;
@@ -220,4 +218,25 @@ textarea {
 
 .fo-textarea {
     font-size: 20px;
+}
+
+.footer-two {
+    text-align: center;
+    padding: 104px 454px;
+    background-color: white;
+
+}
+
+.ft-title {
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: rgba(78, 71, 255, 1);
+
+}
+
+.ft-column-two {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    color: rgba(137, 135, 161, 1);
 }
